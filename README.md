@@ -1,6 +1,6 @@
 # CS-Logistics-Project
 
-Compile​: To compile our program, simply compile all the files in our .zip folder (javac *.java)
+Compile​: To compile our program, simply compile all the files in our .zip folder 
 
 Run​: To run the file, you will run the CalGraph.java file only (java CalGraph). This file calls all
 the other files and takes the user input and prints the calendar graphic output. You will have to
