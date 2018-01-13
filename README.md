@@ -1,4 +1,4 @@
-# CS-Logistics-Project
+# Auto-Scheduling-Project
 
 Run​: To run the file, download the .zip file and compile all files in it. Run the CalGraph.java file only. This file calls all other files and takes in the user input and prints the calendar graphic output. 
 
