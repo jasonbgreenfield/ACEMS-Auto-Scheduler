@@ -22,17 +22,11 @@ public class CalGraph  extends JPanel{
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);            
-        
-	//this makes the color behind the skeleton of the calendar     
+
         g.setColor(Color.WHITE);
         g.fillRect(0, 0, BOX_WIDTH, BOX_HEIGHT);
 
 	
-	//also, I need to edit the paintMonth(String s) method to be a paintDay(String s) method so that I call it for each individual day as I go through and make the Strings for the day of the  week with the date and month and such 
-
-	    
-	
-
 	String startDow = ScheduleDates.getStartDow();
         int startD = ScheduleDates.getStartD();
         int startM = ScheduleDates.getStartM();
@@ -84,9 +78,7 @@ public class CalGraph  extends JPanel{
    
 
     public static void paintMonth(Graphics g, String month){
-
-	//I used this website to learn how to make new colors (so cool!!) http://www.otherwise.com/Lessons/ColorsInJava.html
-		
+	
        	if(month.equals("September")){
 	    for(int i = 0; i < 5; i++){
 		//these following three are the AM shift colored background 
@@ -304,7 +296,7 @@ public class CalGraph  extends JPanel{
 	       if(currentDom ==(changeAt+1) ){
 		   currentDom = 1;
 		   
-		   //This boolean makes it so that the month does not hcange from December to January to Frebruary, instead it just changes from December to January and that is all
+		   //This boolean makes it so that the month does not change from December to January to Frebruary, instead it just changes from December to January and that is all
 		   boolean alreadyChanged = false;
 		       
 		   if(startMstring.equals("December")){
@@ -346,7 +338,7 @@ public class CalGraph  extends JPanel{
     
     public static void printShifts(Graphics g, ArrayList<Shift> joshList, int startDowInt){
 
-	//for this program, this works assuming that the schedule start on an AM shift every time
+	//for this program, we assume that the schedule starts on an AM shift every time, as is customary for ACEMS
 	int j = 0;
 	int ampm = 2;
 	for(int i = 0; i < joshList.size(); i++){
