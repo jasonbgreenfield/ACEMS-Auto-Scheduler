@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 /**
- * Write a description of class RankSorter here.
  * 
  * @author Fernando Garcia Toro
  * @version 12/9/2017
