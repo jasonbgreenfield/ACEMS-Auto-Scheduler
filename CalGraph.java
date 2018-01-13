@@ -4,9 +4,8 @@ import java.awt.Dimension;
 import javax.swing.JPanel;
 import javax.swing.JFrame;
 import java.util.ArrayList;
-
 import java.util.Scanner;
-//unclear if this is the correct scanner import statement
+
 
 public class CalGraph  extends JPanel{
     public static final int BOX_WIDTH = 1400;
