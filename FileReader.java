@@ -5,12 +5,7 @@ import java.io.FileNotFoundException;
 
 /**
  * Class FileReader reads a .csv (Comma Separated Value) file.
- * 
- * The following sources were used/referenced in the making of this file:
- *      -https://stackoverflow.com/questions/14274259/read-csv-with-scanner
- *      -https://stackoverflow.com/questions/14721397/checking-if-a-string-is-empty-or-null-in-java
- *      -http://www.dummies.com/programming/java/use-array-lists-in-java/
- *      
+ *     
  * @author Fernando Garcia Toro 
  * @version 12/05/2017
  */
