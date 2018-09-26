@@ -1,14 +1,8 @@
 # Auto-Scheduling-Project
+Software automatically schedules shifts for ACEMS. Program reads the multiple-choice scheduling survey and sorts the responses according to rank and shift availability. Algorithm takes into account shift frequency and member prioritization for specific shifts. Program prints the finished schedule on a calendar graphic. 
 
-Run​: To run the file, download the .zip file and compile all files in it. Run the CalGraph.java file only. This file calls all other files and takes in the user input and prints the calendar graphic output. 
+The user inputs the start and end dates for the schedule and may flag member's that the sorting algorithm will weight to put on Friday and Saturday night shifts, which is important to ACEMS. The inputed .csv files are generated from this google form (https://goo.gl/forms/XgPa4OC38Ov2Daxg1) which is administered to ACEMS personnel. 
 
-Use​: To use our program, you will run CalGraph.java and put in a number of user inputs.
-Firstly, these inputs set the start and end dates for the schedule. Additionally, the user inputs
-the name of the .csv file that will be read. The user will also input the names for people that will
-be prioritized for busy shifts. Our program reads a specifically styled .csv file that is generated from a
-google form that we created:
-https://goo.gl/forms/XgPa4OC38Ov2Daxg1
-The .csv is the spreadsheet of results from this form:
-https://docs.google.com/a/amherst.edu/spreadsheets/d/1J2YbFTZgS5Mp3dITHufUYISI
-Ngb5yjTV41fFaSEWDi8/edit?usp=sharing
+ to run java CalGraph
+
 
